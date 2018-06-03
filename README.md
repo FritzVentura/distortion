@@ -6,13 +6,13 @@ The bar needs a visualization on how many people are currently in queue to get a
 
 https://kea-alt-del.dk/kata-distortion/
 
-The data refreshes every 10 seconds, so if you could set up the script to fetch every 10 seconds or so, that would be great.
+The data refreshes every 10 seconds, so if you could set up the script to fetch every 10 seconds or so, that would be great. 
 
 ## Requirements
  - You must create a service that shows the amount of people in queue.
  - The service must ask for data regularly, like every 10-20 seconds
  - The visualization should be more than just a number (you can find inspiration below)
- 
+
 ## The visualization
  - The amount of people in queue can never be greater than 25
  - Feel free to come up with something interesting
@@ -29,3 +29,6 @@ With new data every 10 seconds, can you come up with a way of showing the change
 
  - You could simply log the information on the screen (good first step)
  - But, how about an element that animates to a new state whenever there's new data?
+ - CSS animations for datavisualization
+ - Fetch --> Set interval - for hvert 10. sekund fetch ny data
+ - Lav en visualisering som viser historikken på "inQueue"

@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background: rgb(140, 175, 45);
+}
+
+
+.parent {
+    border-radius: 0%;
+    background: #e26031;
+    width: 0%;
+    height: 10%;
+    transition: all 2s;
+    translate: (0,0);
+    cursor: pointer;
+    margin-top: 50px;
+}
